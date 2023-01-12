@@ -69,8 +69,8 @@ def callback(hwnd, extra):
     w = rect[2] - x
     h = rect[3] - y
     name = win32gui.GetWindowText(hwnd)
-    if w>10: # want to ignore ghost/invisible windows
-        if len(name)>0: # want to ignore ghost/invisible windows
+    if w>10: # to ignore ghost/invisible windows
+        if len(name)>0: # to ignore ghost/invisible windows
             print("Window %s:" % win32gui.GetWindowText(hwnd))
             print("\tLocation: (%d, %d)" % (x, y))
             print("\t    Size: (%d, %d)" % (w, h))
