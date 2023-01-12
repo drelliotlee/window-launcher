@@ -4,14 +4,20 @@ A single button to launch 7 programs/windows and move them into my favorite posi
 ![](demo2.gif)
 
 ## Lessons Learned
+### Documentation > Stack Overflow
 I first wasted 4 hours trying to make [this](https://stackoverflow.com/questions/50494633/using-win32gui-to-center-a-window) stackoverflow-based solution work. Instead, I went straight to the documentation for the `win32gui` and built a new solution from scratch to finish in under an hour!
 
-This project was less about the actual application, and using best coding best practices/habits, such as:
-- practicing using git/github from the command line
-- thorough documentation and commenting of my code
-- using my mouse as little as possible to practice VScode's keyboard shortcuts
+## Procedural Scripting > OOP
+OOP is unnecessarily cumbersome for many things. Why do people create a class with a method, when they really just want a function? Why do people create a class with an attribute just to create 2-3 instances, when they can just create the naked attribute itself in the global scope?
 
-## Small headaches I had
+## Small technical headaches 
 - command line method to open (1) chrome websites, (3) applications, and (3) windows file explorer are all different. Learned a lot about windows command line!
 - Windows directories which use backslashes can easily be accomodated in python by simply turning them into raw strings, i.e. `r"C:\Users\Elliot"`
-- OOP still seems unnecessarily cumbersome to me. My scientific programming background still makes me think purely procedural programming / scripting is superior.
+
+
+## Technologies Practiced
+1. Windows command line / Shell (what's the difference?)
+2. `win32gui` package in python
+3. git
+4. markdown (to write readme.md on github)
+5. Adobe Photoshop (to create & edit gifs)
