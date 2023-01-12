@@ -2,8 +2,8 @@
 A single button to launch 7 programs/windows and move them into my favorite positions to immediately start being productive.
 
 
-# What I learned
-I first wasted 4 hours trying to make a stackoverflow-based solution work. Instead, I went straight to the documentation for the `win32gui` and built a new solution from scratch to finish in under an hour!
+## What I learned
+I first wasted 4 hours trying to make [this](https://stackoverflow.com/questions/50494633/using-win32gui-to-center-a-window) stackoverflow-based solution work. Instead, I went straight to the documentation for the `win32gui` and built a new solution from scratch to finish in under an hour!
 
 This project was less about the actual application, and using best coding best practices/habits, such as:
 - frequent commits to github, all via command line
