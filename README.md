@@ -1,16 +1,13 @@
 # Window Launcher
 A single button to launch 7 programs/windows and move them into my favorite positions to immediately start being productive.
 
-![](demo.gif)
-
-VS Code, Chrome, Obsidian, ChatGPT, Gmail, Windows File Explorer, and my To-do App
-All in 1 click!
+![](demo2.gif)
 
 ## Lessons Learned
 I first wasted 4 hours trying to make [this](https://stackoverflow.com/questions/50494633/using-win32gui-to-center-a-window) stackoverflow-based solution work. Instead, I went straight to the documentation for the `win32gui` and built a new solution from scratch to finish in under an hour!
 
 This project was less about the actual application, and using best coding best practices/habits, such as:
-- frequent commits to github, all via command line
+- practicing using git/github from the command line
 - thorough documentation and commenting of my code
 - using my mouse as little as possible to practice VScode's keyboard shortcuts
 
