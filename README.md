@@ -12,6 +12,6 @@ This project was less about the actual application, and using best coding best p
 - using my mouse as little as possible to practice VScode's keyboard shortcuts
 
 ## Small headaches I had
-- `subprocess.Popen()` in python requires the additional argument `shell=True` for commands such as `cd` and `dir`
+- command line method to open (1) chrome websites, (3) applications, and (3) windows file explorer are all different. Learned a lot about windows command line!
 - Windows directories which use backslashes can easily be accomodated in python by simply turning them into raw strings, i.e. `r"C:\Users\Elliot"`
 - OOP still seems unnecessarily cumbersome to me. My scientific programming background still makes me think purely procedural programming / scripting is superior.
