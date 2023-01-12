@@ -11,7 +11,7 @@ import re
 
 os.chdir(r'C:\Users\Elliot\Desktop\Repos')
 
-def moveWindowByWildcard(hwnd, tup):
+def moveWindowByWildcard(hwnd, tup:tuple):
 	'''
 	tup[0] is wildcard
 	tup[0] is x
