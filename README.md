@@ -7,10 +7,10 @@ A single button to launch 7 programs/windows and move them into my favorite posi
 ### Documentation > Stack Overflow
 I first wasted 4 hours trying to make [this](https://stackoverflow.com/questions/50494633/using-win32gui-to-center-a-window) stackoverflow-based solution work. Instead, I went straight to the documentation for the `win32gui` and built a new solution from scratch to finish in under an hour!
 
-## Procedural Scripting > OOP
+### Procedural Scripting > OOP
 OOP is unnecessarily cumbersome for many things. Why do people create a class with a method, when they really just want a function? Why do people create a class with an attribute just to create 2-3 instances, when they can just create the naked attribute itself in the global scope?
 
-## Small technical headaches 
+### Small technical headaches 
 - command line method to open (1) chrome websites, (3) applications, and (3) windows file explorer are all different. Learned a lot about windows command line!
 - Windows directories which use backslashes can easily be accomodated in python by simply turning them into raw strings, i.e. `r"C:\Users\Elliot"`
 
